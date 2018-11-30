@@ -8,3 +8,7 @@ if(isset($_REQUEST['hub_challenge'])){
 if($token == "verify_token") {
     echo $challenge;
 }
+
+params['foo'].present?
+
+if(params['hub_challenge'] && params['hub_verify_token']) end
